@@ -1,6 +1,6 @@
 name: Kumu Help
 source: site
-destination: _site
+destination: public
 encoding: UTF-8
 markdown: redcarpet
 redcarpet:
