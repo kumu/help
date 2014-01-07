@@ -12,5 +12,5 @@ This is **the** resource for you to find answers, tutorials, and tips for how to
 ### Hackers
 
 Know how to code? If so, we recommend diving straight into the
-[CSS Selector][css-selector-reference] and [CSS Property][css-property-reference] references.
+[CSS Selector](/references/css-selector-reference.html) and [CSS Property](/references/css-property-reference.html) references.
 Revisit the guides later on once you've got your hands dirty.

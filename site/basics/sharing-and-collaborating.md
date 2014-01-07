@@ -5,6 +5,8 @@ name: "Sharing & Collaborating"
 
 Kumu is built to be collaborative whether you have a public or private project. Add people to your project through the menu menu or using the dropdown in the upper left of the map overview.
 
+## User Types
+
 Enter the user's email and then choose whether the user should be an observer, collaborator, or manager.
 
 <dl>
@@ -18,6 +20,6 @@ Enter the user's email and then choose whether the user should be an observer, c
 <dd>Managers can add and remove people from the project and can also change the roles of current users.</dd>
 </dl>
 
-## Public Accounts
+## Public Projects
 
-Public accounts allow you to easily share and build upon the work of the whole Kumu community. For more information, view the [public accounts guide](/guides/public-accounts.html).
+Public projects allow you to easily share and build upon the work of the whole Kumu community. For more information, view the [public projects guide](/guides/public-projects.html).
