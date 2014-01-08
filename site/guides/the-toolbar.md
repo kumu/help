@@ -34,15 +34,15 @@ Delays are used in system maps (especially causal loop diagrams) to signify a ti
 
 ## Delete (<i class="fa fa-trash-o"></i>)
 
-Elements, connections and loops can be deleted by selecting it and then clicking the delete button (or by clicking delete on your keyboard). When elements are deleted, they are initially moved into a "trash can" and can later be fully deleted forever.
+Elements, connections and loops can be deleted by selecting it and then clicking the delete button (or by clicking delete on your keyboard). When elements are deleted, they are initially moved into a "trash can" and can later be permanently deleted by emptying the trash can.
 
 ## Cluster
 
-Clustering is a powerful way to connect elements based on data stored in the profile. To learn more, [read our clustering guide](/guides/clustering.html). To activate clustering, click the cluster button and then choose the attribute you want to cluster by. You can then choose to permanently save a cluster by clicking the green checkmark or remove the cluster by clicking the red x. If you refresh the page any unsaved clusters will be removed.
+Clustering is a powerful way to connect elements based on data stored in the profile. To learn more, read our [Clustering Guide](/guides/clustering.html). To activate clustering, click the cluster button and then choose the attribute you want to cluster by. You can then choose to permanently save a cluster by clicking the green checkmark or remove the cluster by clicking the red x. If you refresh the page any unsaved clusters will be removed.
 
 ## Decorate (<i class="fa fa-tint"></i>)
 
-The decorate button allows you to quickly add decorations to your map. To learn more, read [decorating your map](/basics/decorations.html).
+The decorate button allows you to quickly add decorations to your map. To learn more, read [Decorating Your Map](/basics/decorations.html).
 
 ## Filter (<i class="fa fa-filter"></i>)
 

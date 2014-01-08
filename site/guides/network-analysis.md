@@ -15,7 +15,7 @@ If you've already created a network survey and have the results, read about how 
 
 ### Building on the fly
 
-We've made it super easy to build out your map by hand in Kumu. Use the "Add Element" and "Add Connection" buttons and our quick click to edit interface on the profile to build out a network map in no time.
+We've made it super easy to build out your map by hand in Kumu. Use the "Add Element" and "Add Connection" buttons and our quick click-to-edit interface on the profile to build out a network map in no time.
 
 ## Decorating your map
 
@@ -27,4 +27,4 @@ We're planning to add support for common network analysis metrics like degree an
 
 ## Directed and undirected connections
 
-By default, Kumu will import your connections as directed but won't display the arrow. To turn the arrow on, select all the connections by using **option** + **a** and then click the direction button (<i class="fa fa-random"></i>) in the toolbar and then choosing "directed." Connections can be directed, undirected, or mutual (arrows both ways). You also use this button to switch directions for a given directed connection.
+By default, Kumu will import your connections as directed but won't display the arrow. To turn the arrow on, select all the connections by using **option** + **a**,click the direction button (<i class="fa fa-random"></i>) in the toolbar and then choose "directed." Connections can be directed, undirected, or mutual (arrows both ways). You also use this button to switch directions for a given directed connection.

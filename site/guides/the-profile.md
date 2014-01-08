@@ -7,7 +7,7 @@ Every element, connection and loop shares a similar profile which you can use to
 
 ## Label
 
-The label is the name of the element and what shows up on the map. By default we add a line break in when the name becomes too long but if you'd like to include your own line breaks, simply add a double space. This is quite useful when trying to make labels fit within an element circle rather than having the labels show up below the element.
+The label is the name of the element and what shows up on the map. We automatically add a line break when the name becomes too long but if you'd like to include your own line breaks, simply add a double space. This is quite useful when trying to make labels fit within an element circle rather than having the labels show up below the element.
 
 ## Type
 
@@ -20,7 +20,7 @@ Type is meant for the broadest categorization of the elements, connections and l
 
 ### Attention system mappers: Using types for pre and post labels on connections
 
-We've customized the behavior of the type field for connections to allow for creation of pre and post labels that are common in causal loop diagrams within the system mapping field. Below are the values you can use:
+We've customized the behavior of the type field for connections to allow for creation of pre and post labels that are common in causal loop diagrams. Below are the values you can use:
 
 Value | Behavior
 --- | ---
@@ -41,11 +41,11 @@ If an image has been added to an element, you'll see it appear in the upper righ
 
 ## Description
 
-The description is meant to include a narrative overview of what you are mapping. For a person, this may be a short bio and for a project it may be a quick summary and intended impact. You can add formatting (bold, italics), links to external websites, links within your map and to other maps, images, video and more by using our flavor of markdown. Make sure to read the [Markdown Guide](/guides/markdown.html) to learn all that you can add to the description field.
+The description is meant to include a narrative overview of what you are mapping. For a person, this may be a short bio and for a project it may be a quick summary or intended impact. You can add formatting (bold, italics), links to external websites, links within your map and to other maps, images, video and more through markdown. Make sure to read the [Markdown Guide](/guides/markdown.html) to learn all that you can add.
 
 ## Tags
 
-Tags are meant for storing short pieces of information that don't require the structure and label that come with attributes.
+Tags are meant for storing short pieces of information that don't require the structure and label that come with attributes. We recommend using single words without special characters but you are free to use tags as you desire. When you start typing a tag, Kumu will prompt you with other tags that have already been assigned to entities within your project.
 
 ## Attributes
 

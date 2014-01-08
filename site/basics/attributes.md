@@ -8,7 +8,7 @@ Attributes add incredible power to Kumu. You can track as many attributes as nee
 ## Add an attribute
 To add an attribute, select an element or connection and then click the "Create Your First Attribute" or "+ New Attribute" button in the sidebar. You'll be prompted to add a name and a value for the attribute.
 
-By default, new attributes are set to accept only one value and not prompt users with suggested values. While this is an easy way to get started adding values, you may have times where you want people to pick from a list of defined values (level of influence: high, medium or low) or multiple values from a list (skilss: project management, web development, leadership, public speaking).
+By default, new attributes are set to accept only one value and not prompt users with suggested values. While this is an easy way to get started adding values, you may have times where you want people to pick from a list of defined values (level of influence: high, medium or low) or multiple values from a list (skills: project management, web development, leadership, public speaking).
 
 ## Customize an attribute
 To customize the settings for a given attribute, hover over the label of the attribute. You'll see a wrench icon (<i class="fa fa-wrench"></i>) that you can click to bring up the attribute settings. On this page you can change:

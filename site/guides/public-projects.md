@@ -3,7 +3,7 @@ layout: default
 name: "Public Projects"
 ---
 
-Public projects are free of charge and always will be. Our vision for public projects is to create a community of people interested in changing the way we approach challenging issues and a space for people to share, build off of, and collaborate on meaningful maps.
+Public projects are free of charge and always will be. Our vision for public projects is to create a community of people interested in changing the way we approach challenging issues and cultivate a space for people to share, build off of, and collaborate on meaningful maps.
 
 ## The basics
 
@@ -17,4 +17,4 @@ You can add people as members of your public project just like with private proj
 
 ## Coming soon
 
-We plan to support a wide range of [Github](http://github.com) style features including forking, pull requests, and more. We'll announce via our blog when these features are ready.
+We plan to support a wide range of [GitHub](http://github.com) style features including forking, pull requests, and more. We'll announce via our blog when these features are ready.

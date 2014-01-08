@@ -10,7 +10,7 @@ body_class: "css-selector-reference"
 Selectors provide a powerful, friendly way to slice through maps,
 based on CSS selectors.
 
-If you're familiar with css, you'll fee right at home.
+If you're familiar with css, you'll feel right at home.
 
 ## Universal Selector
 
@@ -65,7 +65,7 @@ If labels may change or simply aren't unique, you can assign your own
 id to each object through the "id" attribute.  This gives you a unique
 way to reference each object within your project however you please.
 
-Note: IDs must be strings and should be unique.
+*Note: IDs must be strings and should be unique.*
 
 #### System
 
@@ -74,7 +74,7 @@ They're guaranteed to be unique and permanent, making them an excellent
 choice for permalink-style references.
 
 All system ids are prefixed with the collection identifier, followed by
-a unique random identifier.  For example: elem-123, conn-123, loop-123
+a unique random identifier.  For example: elem-123, conn-123, and loop-123.
 
 
 ## Tag Selectors

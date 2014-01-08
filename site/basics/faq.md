@@ -13,7 +13,7 @@ Kumu has a custom layout engine which creates a high quality layout regardless o
 
 ## Is there a limit to how many collaborators I can have in an account?
 
-No, every hosted Kumu account comes with unlimited collaborators (except for our Enterprise version).
+Every hosted Kumu account comes with unlimited collaborators. Our Enterprise version is billed in 20-seat packs.
 
 ## Does Kumu only create curved connections?
 
@@ -36,9 +36,9 @@ We haven't yet implemented social network analysis calculations but plan to do s
 
 To add an image to an element on your map, create an "Image" attribute and then paste the URL as the value for the given element. Also, if you create an "Email" attribute and add an email for a given person or company, Kumu will look whether a gravatar exists for that email and if so use that as the image.
 
-## Can I create dotted connections?
+## Can I create dashed connections?
 
-Yep! Currently dotted connections are controlled only through Advanced CSS. Below is the code to create dotted connections for all connections with low strength:
+Yep! Currently dashed connections are controlled only through Advanced CSS. Below is the code to create dashed connections for all connections with strength = low:
 
 ```
 connection["strength"="low"] {

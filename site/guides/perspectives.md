@@ -7,7 +7,7 @@ Perspectives allow you to decorate and filter your map, building multiple perspe
 
 ## Editing the perspective
 
-Each project comes with a default perspective that is active when the project is created. To edit the perspective, click the "edit perspective" link on the map overview. You'll be taken a new pane with three sections: decorations, filters and advanced.
+Each project comes with a default perspective that is active when the project is created. To edit the perspective, click the "edit perspective" link on the map overview. You'll be taken a new pane with three sections: **decorations**, **filters** and **advanced**.
 
 Add a description to your perspective to give context for what you're trying to bring attention to with the perspective. The first paragraph of the description will also show in the map legend.
 
@@ -85,6 +85,6 @@ The most powerful perspectives are clear in their purpose. What are you trying t
 
 ### Build from a base perspective
 
-If you are building multiple perspectives that share many of the same decorations, we recommend first building one "base" perspective that has the common decorations across each of the perspectives. You can then copy the "base" perspective and add other decorations that are needed.
+If you are building multiple perspectives that share many of the same decorations, we recommend first building one "base" perspective that includes the common decorations across each of the perspectives. You can then copy the "base" perspective and add other decorations as needed.
 
 

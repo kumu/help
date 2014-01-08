@@ -81,7 +81,7 @@ Look at the embed code of the video you want to embed and grab the URL within **
     ###### Header 6
 
 ## Links within your account
-We also support linking to elements, conenctions and loops (even other maps in your account) using the following format:
+We also support linking to elements, connections and loops (even other maps in your account) using the following format:
 
 **Selectors**
 
@@ -97,6 +97,8 @@ We also support linking to elements, conenctions and loops (even other maps in y
 **Perspectives**
 
     [link label](#map-slug/perspective-slug)
+
+*Note: The best way to find the "map-slug" and "perspective-slug" is to activate the given map and perspective and look at the URL in your browser. You should be able to spot it quite easily by using the above format as a guide. Then copy and paste the applicable portion.*
 
 ## Code
 
