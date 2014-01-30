@@ -45,3 +45,7 @@ Below are the choices for the attribute prompt and guidance on when to use each:
 ### Attribute category
 By default, all attributes are ordered alphabetically based on the name of the attribute. You can also group attributes by assigning them a category. For example, you may want to have all financial information (FY 2012 Investment, FY 2013 Investment and Cumulative Investment) under the category "Financials". You can create multiple categories and each will be ordered alphabetically.
 
+We reserve a few category names that we give special treatment to:
+
+* **General** - This is the default. Attributes in this category will live at the top of the attribute section and won't have an explicit category label.
+* **Footnotes** - This category is meant for things like attribution and citing your sources. Attributes in this category will always be listed at the bottom of the profile.
