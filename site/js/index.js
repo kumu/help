@@ -1,5 +1,10 @@
 function highlightActiveSection() {
-  var $active = $('#menu a[href^="' + location.pathname + '"]');
+  var $active, path = location.pathname;
+
+  if (path == '/')
+    $active = $('#menu a.welcome');
+  else
+    $active = $('#menu a[href^="' + path + '"]');
 
   if ($active.length == 1) {
     $("#menu .active").removeClass("active");

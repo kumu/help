@@ -3,13 +3,17 @@ body {
   font-family: "Helvetica Neue", helvetica, sans-serif;
 }
 
-.page-header h1 {
-  font-weight: 100;
-  font-size: 50px;
+.page-header {
+  border: none;
+
+  h1 {
+    font-weight: 700;
+    font-size: 50px;
+  }
 }
 
 #logo {
-  margin: 40px auto;
+  margin: 20px auto;
 }
 
 #menu {
@@ -19,8 +23,12 @@ body {
 #menu {
   border-right: 1px solid #eee;
 
+  .nav > li > a, .nav > .nav-header {
+    padding: 3px 15px;
+  }
+
   .nav > li > a {
-    color: #aaa;
+    // color: #000;
   }
 
   .nav > li.active > a {
@@ -30,15 +38,15 @@ body {
   }
 
   .nav > .nav-header {
-    padding: 10px 15px;
+    // color: #ddd;
     font-weight: 700;
-    font-size: 12px;
+    font-size: 20px;
     text-transform: uppercase;
   }
 }
 
 #menu .nav + .nav {
-  margin-top: 40px;
+  margin-top: 10px;
 }
 
 
