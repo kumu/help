@@ -83,54 +83,5 @@ Congrats! That's all there is to it.
 Don't worry if writing perspectives by hand is bit challenging at first.
 You'll get the hang of it in no time and we're here to help if you have questions.
 
-# Other Decorations
-
-Now that you know the basics of using the advanced mode, it's time to go wild by diving deep into the available [CSS properties](/references/css-property-reference.html). Some of our favorites are listed below:
-
-* **font-weight** (bold certain types of labels to make them stand out)
-* **text-align** (use "center" as the value to have the label text show up in the middle of the circle)
-* **scale** (using scale changes the size of both the element and the label, great for getting labels to stand out)
-* **pattern** (use "dashed" to make dotted lines, great for opposite connections on system maps)
-
-[Make sure to explore the full list!](/references/css-property-reference.html)
-
-# High Performance Mode (for large maps)
-
-The default mapping engine is optimized for creating great looking maps. As you start working with larger and larger maps (1000+ elements) or you experience slowness on your computer, try shifting to our high performance mode. You can do this by hitting the **q** keystroke or by adding the following to your advanced CSS:
-
-```
-@settings {
-  quality: fast;
-}
-```
-You'll notice that connections are no longer curved and that elements are squares instead of circles. You should now be able to map much larger maps (5,000 - 10,000 elements) with a powerful computer.
-
-# Light and Dark Themes
-
-Not a fan of our light theme? You've got options! By default the map has an off-white background. If you'd like to change to a dark theme, simply add the below code:
-
-```
-@settings {
-  theme: dark;
-}
-```
-<img src="/images/person-shadow-dark.png" alt="Dark Theme">
-
-# Preset Focus
-
-Focus is a powerful feature that let's you hone in on certain portions of your map. Instead of only being able to activate a focus by clicking and holding on the map, we support the ability to include a focus within any perspective.
-
-```
-@settings {
-  focus: #jack out 2;
-}
-```
-The above will load the map with Jack and any other elements that are within 2 degrees. You can add multiple hubs by using a comma to separate them:
-
-```
-@settings {
-  focus: #jack out 2, #companyxyz out 1;
-}
-```
-This will load the map with Jack and any other elements that are within 2 degrees, as well as Company XYZ and any elements that are directly connected.
-
+If that was all a little too easy for you then head over to our
+[Mastering Perspectives](/guides/mastering-perspectives.html) guide.
