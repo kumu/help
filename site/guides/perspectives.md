@@ -1,6 +1,6 @@
 ---
 layout: default
-name: "Perspectives"
+name: "Perspectives (Basic)"
 ---
 
 Perspectives allow you to decorate and filter your map, building multiple perspectives and easily switching between them.  Size elements by level of influence, change connection width by strength of relationship, color elements based on status, even add icons for certain types of elements. Contine reading to learn how to make the most of perspectives.
