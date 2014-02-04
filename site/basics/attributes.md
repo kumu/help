@@ -55,5 +55,5 @@ You can also manage attribute relevance through the project's settings to preven
 
 ![attribute relevance](/images/attribute-relevance.png)
 
-By default, all attributes are shown for all types. If you'd like to limit the attributes that are shown, simply type the name of each attribute you'd like to appear in the profile for a given type. Label, type, and description are always shown for all types regardless of what you enter. Above is an example of customizing the profile of elements with type of "People" to only show Phone, Address, and Skills.
+By default, all attributes are shown for all types. If you'd like to limit the attributes that are shown, simply type the name of each attribute you'd like to appear in the profile for a given type. Label, type, description, and tags are always shown for all types regardless of what you enter. Above is an example of customizing the profile of elements with type of "People" to only show Phone, Address, and Skills.
 
