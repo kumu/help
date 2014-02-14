@@ -55,4 +55,4 @@ At the bottom of the map you'll find the toolbar. With the toolbar you can:
 * Focus (<i class="fa fa-crosshairs"></i>)
 * Access additional settings (<i class="fa fa-ellipsis-h"></i>)
 
-The main menu serves as a quick way to switch between maps, perspectives, and also edit project settings. In addition to clicking on the icon in the toolbar, you can also access it by hitting ***spacebar*** on your computer.
+The main menu serves as a quick way to switch between maps, perspectives, and also edit project settings. In addition to clicking on the icon in the toolbar, you can also access it by hitting ***tab*** on your computer.
