@@ -3,84 +3,138 @@ layout: default
 name: "Using Selectors"
 ---
 
-Selectors are how you tell Kumu what you want to decorate, filter, focus, etc. You can either build the selector using our handy selector builder (look for the rocket icon once you click on search)
+Selectors provide a simple way to select items within your project.
+They're used everywhere in Kumu (perspectives, filter, focus, finder...
+you get the point!) so you better cozy up to them.
+
+You can build selectors by hand, or you can use our selector builder while you're
+still getting comfortable with them (look for the rocket icon once you click on search)
 
 ![selector rocket](/images/selector-rocket.png)
 
-...or you can build them by hand (you'll need to know how to do this for using advanced perspectives). Let's walk through the basics of how to build your own selectors:
+You can always use general attribute selectors `[attribute=value]` but we've
+built in a number of friendly shorthands to make selectors as easy to work
+with as possible
 
-## Writing Your First Selectors
+We'll first run through the available shorthands, then we'll cover the general
+attribute selector and the advanced queries you can create with them.
 
-### Selecting All Elements, Connections, or Loops
-To select all elements, or all connections, or all loops, simply include the singular name of which entity you want to select (```element``` or ```connection```). Say we want to decorate all elements red. Here's the selector and the decoration:
+## Shorthand Selectors
+
+### Slugs
+
+Before we dive in, we need to talk about slugs. A slug is nothing more than
+a simplified version of a value. To slug a value, simply:
+
+1. Convert all special characters to spaces
+2. Convert all spaces to a single dash
+3. Lowercase everything
+
+That's all there is to it! Here are some examples to clarify just in case the
+idea is still a little hazy:
+
+<table class="table">
+  <tr><th>Original</th><th>Slug</th></tr>
+  <tr><td>This is Kumu</td><td>this-is-kumu</td></tr>
+  <tr><td>Honolulu, HI</td><td>honolulu-hi</td></tr>
+  <tr><td>Friends don't let friends map alone!</td><td>friends-dont-let-friends-map-alone</td></tr>
+  <tr><td>От Kumu с любовью</td><td>от-kumu-с-любовью</td>
+</table>
+
+Slugs are your friend! All shorthand selectors rely on slugs so make sure
+your comfortable with them before moving on.
+
+### By Collection
+
+Selecting all of a given collection is pretty simple.
 
 ```
-element {
-  color: #C72026;
-}
+element     // select all elements
+connection  // select all connections
+loop        // select all loops
 ```
 
 ### By Type
 
-We've added a shortcut to make selecting by type (whether element or connection type) much easier. For elements types, simply use the name of the type itself (```person``` or ```organization```). For connection types, use the name of the type and then add "-connection" (```personal-connection``` or ```busines-connection```).
+Selecting all of a specific type is pretty simple too. (Noticing a pattern yet?)
+
+For elements, just take the type and slug it. For connections, slug the type
+and add "-connection".
+
+```
+person              // select all elements with "Person" element type
+future-project      // select all elements with "Future Project" element type
+personal-connection // select all connections with "Personal" connection type
+business-connection // select all connections with "Business" connection type
+```
 
 ### By Label
 
-To select by type, start the selector with "#" and then include the lable, without any spaces or special characters. That means the selector for "Yes We Can!" is ```#yeswecan```.
+Selecting specific items by label is pretty simple too.
+(Promise, that's the last one!)
+
+Just slug the label and add a "#" to the front of it:
+
+```
+#jeff-mohr             // select element "Jeff Mohr"
+#thinking-in-systems   // select element "Thinking in Systems"
+#b1                    // select loop "B1"
+```
+
+### By ID
+
+Sometimes you want to assign a friendly id so you don't need to use the
+full label. Easy! Just assign your own "ID" attribute and now you can use that
+to select items directly.
+
+The syntax is the exact same as the label selector above.
+
+```
+#project-1234          // select item with id "project-1234"
+```
 
 ### By Tag
 
-There are two ways to select by tag, the short way and the long way, depending on whether you're using tags as single words or more broadly. For single word tags without any special characters, simply add a period before the tag name (```.influential```). If you have multiple word tags or tags with special characters, follow the next steps for attributes and use "tag" as the attribute name.
-
-### By Attribute
-
-The simplest form of attribute selectors are checking for whether a given value is present. If we're trying to select for all people with "high" level of influence, the selector would be ```["level of influence"="high"]```. You can also select based on:
-
-* Whether an attribute has any value assigned
-* If it starts with, ends with, or includes a given term
-* Relative comparisons for numerical attributes
-
-For the full list of operators you can use to match against, check out the [selector reference](/references/css-selector-reference.html).
-
-## Using Selectors
-
-Once you know how to write selectors, they become a powerful way to build more functionality into your map. Combined with a bit of [Markdown](/guides/markdown.html) knowledge, you have a lot of power at your fingertips.
-
-### Creating Links Within Your Map
-
-You can combine the combine the standard link syntax for markdown...
+To select by tag simply slug the tag and add a "." to the front of it:
 
 ```
-[Kumu](http://launch.kumupowered.com)
-```
-But swap out the URL for a selector. Here's how:
-
-```
-[Jeff Mohr](= #jeffmohr)
+.mission-critical  // select anything tagged with "Mission Critical"
 ```
 
-That will create a link to an entities with a matching label. If you hover on the link, you'll automatically zoom into that element on the map (as long as it is actually part of your map). These links are styled with a dotted underline:
+## General Attribute Selector
 
-![selector rocket](/images/internal-link.png)
-
-### In Search
-
-You can click the search input and manually type a selector. This will select the relevant elements and allow you to add tags, delete, pin, etc. Simply type "=" followed by a space and then the selector: ```= #jeffmohr```.
-
-### Focus By Selector
-
-You can tell Kumu to load the map with a specific element or selection in focus. To do this, add the following to the advanced tab in your perspective:
+While the shorthand selectors are great for most cases, they're only useful when
+you just need to check for an exact value.  Attribute selectors are longer to
+write but they're also much more powerful.
 
 ```
-@settings {
-  focus: #jeffmohr out 2;
-}
+["element type"="person"] // select all elements with "Person" element type
+["description"]           // select if description is present
+["description"*="kumu"]   // select if description contains "kumu"
 ```
-This will load the map with just the element "Jeff Mohr" and anything within two degrees. You can specifiy multiple roots if you'd like:
+
+When working with numbers you can also use relative selectors:
 
 ```
-@ settings {
-  focus: #jeffmohr out 2, #kumu out 1;
-}
+[employees<20]
+[employees>20]
+[employees<=20]
+[employees>=20]
 ```
-For more information about what you can do with @settings, head to our [Master Perspectives Guide](/guides/mastering-perspectives.html).
+
+Check out the [selector reference](/references/css-selector-reference.html)
+for the full list of available operators.
+
+## Complex Selectors
+
+The selectors we've covered so far are just building blocks.  The real power
+of selectors comes from being able to chain them together to create complex
+queries.
+
+Connect selectors back-to-back to AND them together (match all),
+or join them with a comma to OR them (match any).
+
+```
+organization, person, project  // select all organizations, people, and projects
+.young.influential[sex=female] // select all young influential women
+```
