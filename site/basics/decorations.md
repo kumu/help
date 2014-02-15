@@ -13,13 +13,15 @@ Decorations are stored within [perspectives](/guides/perspectives.html) which of
 
 ### Step 1: <i class="fa fa-tint"></i> Click the decorate button
 
-If you are looking to decorate a specific element, select the element and then click on the decorate button (<i class="fa fa-tint"></i>) in the toolbar. You can also click the decorate button without anything selected. If you have multiple items selected, Kumu will automatically find out what the matching attributes are across the selection and allow you to use this data to create your decoration rule.
-
-Choose "Add Element Decoration" from the menu and then proceed to step 2.
+If you are looking to decorate a specific element, select the element and then click on the decorate button (<i class="fa fa-tint"></i>) in the toolbar. If you have multiple items selected, Kumu will automatically find out what the matching attributes are across the selection and allow you to use this data to create your decoration rule.
 
 ### Step 2: Build your selector
 
-You'll find yourself within a modal that has three sections: Select, Decorate, and Label. The first "Select" step will present you with four options (depending on whether you had elements selected when you clicked the decorate button):
+You'll find yourself within a modal for creating your decoration.
+
+![Decorate](/images/decorate-2.png)
+
+The first dropdown presents you with four options (depending on whether you had elements selected when you clicked the decorate button):
 
 * Decorate **all** elements
 * Decorate **selected** elements
@@ -38,25 +40,18 @@ The first dropdown on the left is used to select which attribute you'd like to u
 * has any value
 * is unknown
 
-We'll select "is" and then use the text entry area on the right to type "People" as the element type we want to decorate. You'll notice that Kumu will suggest values for any attribute which has prompt set to "autocomplete." Click "next" and proceed to step 3.
+We'll select "is" and then use the text entry area on the right to type "People" as the element type we want to decorate. You'll notice that Kumu will suggest values for any attribute which has prompt set to "autocomplete."
 
 ### Step 3: Choose your decorations
 In this step you get to create the decorations that will apply to your selection in Step 2. You have a number of options available to you for decorating elements that we've split into three tabs
 
-* Size
-  * Set a fixed element size
-  * Scale elements based on attribute values
-* Color
- * Set a fixed element color
- * Color elements based on attribute values
-* More
- * Add image
- * Add bullseye
- * Add shadow
+* Change size
+* Change color
+* Add image
+* Add bullseye
+* Add shadow
 
-We'll keep it simple and click the "Color" tab and then choose the option to set a fixed element color. Click the box to the right of the color label and then choose the color you'd like to use. You can also type your own color name or hex color value but we recommend sticking with one of our defined color palettes to improve the look and feel of your map.
-
-Once you've selected your color, click next.
+We'll keep it simple and toggle the "Change color" checkbox and then choose the option to set a fixed element color. Click the box to the right of the color label and then choose the color you'd like to use. You can also type your own color name or hex color value but we recommend sticking with one of our defined color palettes to improve the look and feel of your map.
 
 ### Step 4: Add a label (or not)
 
@@ -71,13 +66,15 @@ Decorating connections is quite similar to decorating elements.
 
 ### Step 1: <i class="fa fa-tint"></i> Click the decorate button
 
-If you are looking to decorate a specific connection, select the connection and then click on the decorate button (<i class="fa fa-tint"></i>) in the toolbar. You can also click the decorate button without anything selected. If you have multiple items selected, Kumu will automatically find out what the matching attributes are across the selection and allow you to use this data to create your decoration rule.
-
-Choose "Add Connection Decoration" from the menu and then proceed to step 2.
+If you are looking to decorate a specific connection, select the connection and then click on the decorate button (<i class="fa fa-tint"></i>) in the toolbar. If you have multiple items selected, Kumu will automatically find out what the matching attributes are across the selection and allow you to use this data to create your decoration rule.
 
 ### Step 2: Build your selector
 
-You'll find yourself within a modal that has three sections on the left hand side: Select, Decorate, and Label. The first "Select" step will present you with four options (depending on whether you had connections selected when you clicked the decorate button):
+You'll find yourself within a modal for creating your decoration.
+
+![Decorate](/images/decorate-connection.png)
+
+You'll find yourself within a modal that has three sections on the left hand side: Select, Decorate, and Label. The first dropdown presents you with four options (depending on whether you had connections selected when you clicked the decorate button):
 
 * Decorate **all** connections
 * Decorate **selected** connections
@@ -102,14 +99,10 @@ For tags, you need to select "contains." Use the text entry area on the right to
 
 The following decorations are available for connections:
 
-* Width
-  * Set a fixed connection width
-  * Scale connection widths based on attribute values
-* Color
- * Set a fixed connection color
- * Color connections based on attribute values
+* Change size
+* Change color
 
-In this example we'll choose to change the width of the connection. Drag the slider to the right (a value of around 5 works well). Click "Next."
+In this example we'll select the first option "Change size" and drag the slider to the right (a value of around 5 works well).
 
 ### Step 4: Add a label (or not)
 
