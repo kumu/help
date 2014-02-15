@@ -19,7 +19,7 @@ Choose "Add Element Decoration" from the menu and then proceed to step 2.
 
 ### Step 2: Build your selector
 
-You'll find yourself within a modal that has three sections on the left hand side: Select, Decorate, and Label. The first "Select" step will present you with four options (depending on whether you had elements selected when you clicked the decorate button):
+You'll find yourself within a modal that has three sections: Select, Decorate, and Label. The first "Select" step will present you with four options (depending on whether you had elements selected when you clicked the decorate button):
 
 * Decorate **all** elements
 * Decorate **selected** elements
