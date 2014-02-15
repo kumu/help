@@ -37,9 +37,13 @@ Filters are a powerful way to hide elements and connections and create different
 ### By type
 You can easily filter elements and connections by type using the checkboxes within the filter section. Simply uncheck any element types that you don't want to display on the map. You can do the same with connection types.
 
-### By selector (coming soon!)
-You can also add filters based on any selector. This gives you a lot of power to change what is displayed on your map. Simply use the selector builder to create a selector that matches what you want to have displayed on the map.
+### By selector
+You can also add filters based on any selector. This gives you a lot of power to change what is displayed on your map. You have two options:
 
+* Include
+* Ignore
+
+Simply use the selector builder to create a selector that matches what you want to have displayed/hidden on the map.
 
 ## Advanced CSS
 
