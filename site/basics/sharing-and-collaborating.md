@@ -3,7 +3,7 @@ layout: default
 name: "Sharing & Collaborating"
 ---
 
-Kumu is built to be collaborative whether you have a public or private project. Add people to your project through the menu menu or using the dropdown in the upper left of the map overview.
+Kumu is built to be collaborative whether you have a public or private project. Add people to your project through the main menu or using the dropdown in the upper left of the map overview.
 
 ## User Types
 
