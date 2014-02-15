@@ -3,7 +3,7 @@ layout: default
 name: "Clustering"
 ---
 
-Clustering is an insanely powerful tool that allows you to transform profile information into a richly interactive map. It essentially creates an element for the data in the profile and draws a connection from any element that has that data.
+Clustering is a powerful tool that allows you to transform profile information into a richly interactive map. It essentially creates an element for the data in the profile and draws a connection from any element that has that data.
 
 ## A quick example
 
@@ -13,7 +13,7 @@ Much of the relational information you're looking to map isn't stored in a forma
 
 **Not that eye opening, right?** And if you wanted to see the relationship view, you would have to create a separate connections worksheet pointing each person to the organization they work for and then import both into Kumu.
 
-With clustering, **simply hit the v key** and you'll be prompted with a dropdown of what you want to cluster by. In this example, we'd choose **organization.** Click cluster and *voila!* You now have a relational map of all the people and organizations without ever having to do the import workaround.
+With clustering, **simply hit the k key** and you'll be prompted with a dropdown of what you want to cluster by. In this example, we'd choose **organization.** Click cluster and *voila!* You now have a relational map of all the people and organizations without ever having to do the import workaround.
 
 <img src="/images/cluster-after-final.png" alt="Elements with relationships">
 
@@ -27,12 +27,12 @@ First, make sure that you have information stored in the profiles of some of you
 
 ## Activating clusters
 
-Once you have data that you want to cluster by, click on the cluster icon in the toolbar or use the "v" keystroke. This will open a pane in the sidebar that allows you to choose which items you want to cluster.
+Once you have data that you want to cluster by, click on the cluster icon in the toolbar or use the "k" keystroke. This will open a pane in the sidebar that allows you to choose which items you want to cluster.
 
-Continuing with the "Organization" attribute example, let's say we choose "Organization" from the drop down. Click the blue "Cluster" button and you'll now see the organizations drawn as elements and connected to the people who work at each organization.
+Continuing with the "Organization" attribute example, let's say we choose "Organization" from the drop down. You'll now see the organizations drawn as elements and connected to the people who work at each organization.
 
 ## Saving or switching clusters on the fly
 
-You can choose to save the clustered elements and connections by clicking the green check mark or you can click the red x to reset so that you can experiment with other attributes to cluster. If you refresh the page, any unsaved clusters will be removed.
+You can choose to save the clustered elements and connections by clicking "save" or you can click "cancel" to reset so that you can experiment with other attributes to cluster. If you refresh the page, any unsaved clusters will be removed.
 
 

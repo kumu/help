@@ -38,7 +38,7 @@ Elements, connections and loops can be deleted by selecting it and then clicking
 
 ## Cluster
 
-Clustering is a powerful way to connect elements based on data stored in the profile. To learn more, read our [Clustering Guide](/guides/clustering.html). To activate clustering, click the cluster button and then choose the attribute you want to cluster by. You can then choose to permanently save a cluster by clicking the green checkmark or remove the cluster by clicking the red x. If you refresh the page any unsaved clusters will be removed.
+Clustering is a powerful way to connect elements based on data stored in the profile. To learn more, read our [Clustering Guide](/guides/clustering.html). To activate clustering, click the cluster button and then choose the attribute you want to cluster by. You can then choose to permanently save a cluster by clicking "save" or remove the cluster by clicking "cancel." If you refresh the page any unsaved clusters will be removed.
 
 ## Decorate (<i class="fa fa-tint"></i>)
 

@@ -5,11 +5,11 @@ name: "FAQ"
 
 ## How can I select all elements on my map? All connections?
 
-Use the ***a*** keystroke to select all elements on your map. You can use the ***option*** + ***a*** to select all connections.
+Use the ***a*** keystroke to select all elements on your map.
 
 ## Why does my map keep moving?
 
-Kumu has a custom layout engine which creates a high quality layout regardless of map size. If you'd rather not have the layout change after you are happy with it, select all elements using the ***a*** keystroke and then click the pin button in the toolbar.
+Kumu has a custom layout engine which creates a high quality layout regardless of map size. Use the spacebar keystroke to pause the layout. If you'd rather not have the layout change after you're happy with it, select all elements using the ***a*** keystroke and then click the pin button in the toolbar.
 
 ## Is there a limit to how many collaborators I can have in an account?
 
@@ -45,10 +45,11 @@ connection["strength"="low"] {
   pattern: dashed
 }
 ```
+Note that support for dashed connections isn't great across all browsers, so you may be better off using color instead.
 
 ## Is it possible to create nested or layered networks?
 
-Yes, we recommend creating separate maps and then using the description to create links to help ease navigation between various levels or layers. Read the [markdown guide](/guides/markdown.html) for how to create links to other maps.
+Yes, we recommend creating separate maps and then using the description to create links to help ease navigation between various levels or layers. Read the [markdown guide](/guides/markdown.html) to learn how to create links to other maps.
 
 ## Does Kumu integrate with data from other tools/platforms?
 

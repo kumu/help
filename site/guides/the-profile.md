@@ -31,6 +31,8 @@ Value | Behavior
 **+-** | adds a "+" to the **from** end and a "-" to the **to** end of the connection
 **-+** | adds a "-" to the **from** end and a "+" to the **to** end of the connection
 
+Check out the [systems mapping guide](/guides/system-mapping.html) to learn more.
+
 ### Loops
 
 We recommend using the standard "reinforcing" and "balancing" terminology for loop types. You can then later use these types to decorate each loop based on whether it is a reinforcing or a balancing loop.

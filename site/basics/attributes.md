@@ -11,32 +11,27 @@ To add an attribute, select an element or connection and then click the "Create 
 By default, new attributes are set to accept only one value and not prompt users with suggested values. While this is an easy way to get started adding values, you may have times where you want people to pick from a list of defined values (level of influence: high, medium or low) or multiple values from a list (skills: project management, web development, leadership, public speaking).
 
 ## Customize an attribute
-To customize the settings for a given attribute, hover over the label of the attribute. You'll see a wrench icon (<i class="fa fa-wrench"></i>) that you can click to bring up the attribute settings. On this page you can change:
+To customize the settings for a given attribute, click the label of the attribute and you'll see a dropdown appear with the following options:
 
-- **Name**
-- **Limit** - one value **OR** one or more values
-- **Format** - none, text/markdown, URL, number, percentage, currency, date
-- **Prompt** - none, autocomplete, list
+- **Type** - string, text, URL, number
+- **Limit** - one value **OR** none (one or more values)
 - **Category** - for grouping attributes in sections
-- **Label** - if the displayed name of the attribute should be different than the name
-
-
+- **Visibility** - public **OR** private (whether or not viewers can see a given attribute)
+- **Name** - change the name of your attribute
+- **More** - access the full attribute settings, relevance, and delete
 
 Let's look at a few of these options in more depth:
 
-### Attribute format
+### Attribute type
 Below are the choices for the attribute format and guidance on when to use each:
 
-- **None** - This is the default value and used when entering simple short pieces of text
-- **Text/Markdown** - Used for longer text fields like notes, addresses, and anywhere you want to use markdown formatting
-- **URL** - Used for website addresses
+- **String** - This is the default value and used when entering simple short pieces of text
+- **Text** - Used for longer text fields like notes, addresses, and anywhere you want to use markdown formatting
+- **URL** - Used for website addresses and emails
 - **Number** - Used for numerical values that don't fit into the below categories
-- **Percentages** -  Used for percentages (of course!)
-- **Currency** - Used for any money-based value
-- **Date** - Used to enter dates (enter the date in any format you'd like)
 
 ### Attribute prompt
-Below are the choices for the attribute prompt and guidance on when to use each:
+Attribute prompt is managed by clicking "more" and then "settings" in the dropdown. Below are the choices for the attribute prompt and guidance on when to use each:
 
 - **None** - Use when you'd like to turn off any prompts for attribute values
 - **Autocomplete** - Use when you'd like a tag-like interface for prompting values that match the current input

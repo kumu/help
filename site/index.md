@@ -4,12 +4,7 @@ name: "Welcome"
 title: "Welcome"
 ---
 
-This is **the** resource for you to find answers, tutorials, and tips for how to get the most from Kumu. If you're just starting out with Kumu, the [Getting Started](/basics/getting-started.html) guide is a great place to start. Otherwise, browse the sections on the left hand side to find the topics you're looking to learn more about and <a href="mailto:support@kumu.io">ask us a question</a> if you're stumped or can't find what you're looking for.
-
-<iframe src="//player.vimeo.com/video/78870652?title=0&amp;byline=0&amp;portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
-
-### Hackers
-
-Already know how to code? If so, we recommend diving straight into the
+This is **the** resource for you to find answers, tutorials, and tips for how to get the most from Kumu. If you're just starting out with Kumu, the [Getting Started](/basics/getting-started.html) guide is a great place to start. Otherwise, browse the sections on the left hand side to find the topics you're looking to learn more about and <a href="mailto:support@kumu.io">ask us a question</a> if you're stumped or can't find what you're looking for. Hacker? Already know how to code? If so, we recommend diving straight into the
 [Advanced Perspectives Guide](/guides/advanced-perspectives.html).
+
+<iframe src="//player.vimeo.com/video/86694693?title=0&amp;byline=0&amp;portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>

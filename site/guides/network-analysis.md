@@ -27,4 +27,4 @@ We're planning to add support for common network analysis metrics like degree an
 
 ## Directed and undirected connections
 
-By default, Kumu will import your connections as directed but won't display the arrow. To turn the arrow on, select all the connections by using **option** + **a**,click the direction button (<i class="fa fa-random"></i>) in the toolbar and then choose "directed." Connections can be directed, undirected, or mutual (arrows both ways). You also use this button to switch directions for a given directed connection.
+By default, Kumu will import your connections as directed but won't display the arrow. To turn the arrow on, select all the connections by hitting the **a** keystroke,click the direction button (<i class="fa fa-random"></i>) in the toolbar and then choose "directed." Connections can be directed, undirected, or mutual (arrows both ways). You also use this button to switch directions for a given directed connection.
