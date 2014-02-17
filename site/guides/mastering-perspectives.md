@@ -110,6 +110,14 @@ The above will load the map with Jack and any other elements that are within 2 d
 
 This will load the map with Jack and any other elements that are within 2 degrees, as well as Company XYZ and any elements that are directly connected.
 
+You can use any [selector](/basics/selectors.html) to set the focus of the map. For example, you could set the focus to show only influential people, out 2 degrees:
+
+```
+@settings {
+  focus: ["element type"="Person"]["level of influence"="High"] out 2;
+}
+```
+
 ## Render quality (for large maps)
 
 The default mapping engine is optimized for creating great looking maps. As you start working with larger and larger maps (1000+ elements) or you experience slowness on your computer, try shifting to our high performance mode. You can do this by hitting the **q** keystroke or by adding the following to your advanced CSS:
