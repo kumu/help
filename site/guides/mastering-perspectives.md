@@ -114,7 +114,7 @@ You can use any [selector](/basics/selectors.html) to set the focus of the map. 
 
 ```
 @settings {
-  focus: ["element type"="Person"]["level of influence"="High"] out 2;
+  focus: person["level of influence"="High"] out 2;
 }
 ```
 
