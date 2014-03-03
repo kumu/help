@@ -60,6 +60,8 @@ http://launch.kumupowered.com
 
 <iframe src="//player.vimeo.com/video/31240369?color=ffffff" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
+<br />
+
 Look at the embed code of the video you want to embed and grab the URL within ***src=" "***
 
     ![I Believe I Can Fly](//player.vimeo.com/video/31240369?color=ffffff)
