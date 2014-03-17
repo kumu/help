@@ -4,7 +4,7 @@ name: "Welcome"
 title: "Welcome"
 ---
 
-Thanks for checkout out [help.kumu.io](/), the best place to find answers,
+Thanks for checking out [help.kumu.io](/), the best place to find answers,
 tutorials, and tips on getting the most out of Kumu.
 The [Getting Started](/basics/getting-started.html) guide is a great place
 to start. For hackers, we recommend diving straight into the
