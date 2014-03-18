@@ -10,12 +10,6 @@ We've built a [flexible widget framework](https://github.com/kumu/widgets) to ma
 * Slideshare ```[[slideshare/:id]]```
 * Speaker Deck ```[[speakerdeck/:id]]```
 
-The basic format is:
-
-```
-[[widget/:id "descriptive title"]]
-```
-
 ## The Widgets
 
 ### Vimeo
