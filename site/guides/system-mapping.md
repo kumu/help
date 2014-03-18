@@ -22,7 +22,7 @@ If you add elements using the "Add Element" button workflow, the element will in
 If you're looking to indicate whether a connection has a same or opposite causal relationship (does an increase in one factor cause an increase or a decrease in the other?), we recommend using the connection type and adding either "same" or "opposite" as the value. You can then add a decoration to your perspective that keeps the "same" connections solid and adds a dashed pattern for the "oppposite" connections. Here is the advanced CSS to add:
 
 ```
-connection ["connection type"="opposite"] {
+connection["connection type"="opposite"] {
   pattern: dashed;
 }
 ```
