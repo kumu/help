@@ -24,12 +24,12 @@ We've customized the behavior of the type field for connections to allow for cre
 
 Value | Behavior
 --- | ---
-**+** | adds a "+" to the **to** end of the connection
-**-** | adds a "-" to the **to** end of the connection
-**++** | adds a "+" to the **from** and **to** end of the connection
-**--**  | adds a "-" to the **from** and **to** end of the connection
-**+-** | adds a "+" to the **from** end and a "-" to the **to** end of the connection
-**-+** | adds a "-" to the **from** end and a "+" to the **to** end of the connection
+**+** | adds a "+" to the *trailing* end of the connection
+**-** | adds a "-" to the *trailing* end of the connection
+**++** | adds a "+" to both ends of the connection
+**--**  | adds a "-" to both ends of the connection
+**+-** | adds a "+" to the *leading* end and a "-" to the *trailing* end of the connection
+**-+** | adds a "-" to the *leading* end and a "+" to the *trailing* end of the connection
 
 Check out the [systems mapping guide](/guides/system-mapping.html) to learn more.
 
