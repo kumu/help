@@ -33,12 +33,12 @@ Some system mappers like to go even further and include not just whether a conne
 
 Value | Behavior
 --- | ---
-**+** | adds a "+" to the **to** end of the connection
-**-** | adds a "-" to the **to** end of the connection
-**++** | adds a "+" to the **from** and **to** end of the connection
-**--**  | adds a "-" to the **from** and **to** end of the connection
-**+-** | adds a "+" to the **from** end and a "-" to the **to** end of the connection
-**-+** | adds a "-" to the **from** end and a "+" to the **to** end of the connection
+**+** | adds a "+" to the *trailing* end of the connection
+**-** | adds a "-" to the *trailing* end of the connection
+**++** | adds a "+" to both ends of the connection
+**--**  | adds a "-" to both ends of the connection
+**+-** | adds a "+" to the *leading* end and a "-" to the *trailing* end of the connection
+**-+** | adds a "-" to the *leading* end and a "+" to the *trailing* end of the connection
 
 <br /><br />
 Simply add the value to the "type" field on any connection:
