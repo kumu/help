@@ -14,11 +14,15 @@ The left side of your screen is the sidebar. The sidebar's contents change based
 ### The map overview
 When you first open a map (and when you don't have anything selected on the map) the sidebar shows you the map overview. Each map has a description which can be edited by clicking in the text area. We recommend including a general overview of what you are mapping to give anyone viewing your map quick context.
 
+![map overview](/images/map-overview.png)
+
 You can use the upper left menu to manage attributes, members, and settings. You can also click to learn about the project or switch between different projects.
 
 ### Element and connection profiles
 
 When you select any element, connection or loop, the sidebar shows the profile for the given entity. You can quickly deselect the entity and return to the map overview by clicking on the "X" in the upper right corner of the profile.
+
+![element profile](/images/element-profile.png)
 
 ### Hiding the sidebar
 
