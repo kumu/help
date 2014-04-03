@@ -3,7 +3,7 @@ layout: default
 name: "Imports"
 ---
 
-While our [import basics](/basics/import.html) will get you up and running, these tips will turn you into a master importer in two minutes flat.
+While our [import basics](/basics/imports.html) will get you up and running, these tips will turn you into a master importer in two minutes flat.
 
 ## How To Master Imports in 5 Simple Steps
 
