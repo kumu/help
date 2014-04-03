@@ -3,11 +3,11 @@ layout: default
 name: "System Mapping"
 ---
 
-Looking to create awesome and engaging system maps with the power to change hearts and minds? You've come to the right place.
+Looking to create awesome and engaging system maps with the power to change hearts and minds? You've come to the right place. Kumu enables you to build interactive maps with narratives, links, video and other background for each element, connection, and loop in the map.
 
 ## Building the basic structure of a map
 
-Kumu allows you to have both fixed and dynamic layouts for your map. We recommend having a fixed layout for your system map by pinning each element in place so that you'd don't overwhelm people with a new layout each time they see the map.
+Kumu allows you to have both fixed and fluid layouts for your map. We recommend having a fixed layout for your system map by pinning each element in place so that you'd don't overwhelm people with a new layout each time they see the map.
 
 ### Adding elements and connections
 
@@ -17,9 +17,27 @@ You can also use the **alt** + **drag** method to connect two existing elements.
 
 If you add elements using the "Add Element" button workflow, the element will initially be floating. Click on the element and then hit the pin button (<i class="fa fa-map-marker"></i>) to make sure it stays in place.
 
+#### Forcing line breaks in entity names
+
+Sometimes our default line break isn't quite right for your map. To add a manual line break, just include a double space in the label of any element, conneciton or loop and Kumu will treat it as a line break.
+
+### Changing the curvature of connections
+
+Often times you'll want to change the curvature of a connection based on the layout of your map. To do this, just click close to the middle of the connection and drag to change the curvature. Once you release, the connection will stay in that position.
+
+### Setting connection direction
+
+By default, connections are undirected in Kumu which means no arrows are included. To add an arrow to a single connection, select it and then click the direction button (<i class="fa fa-random"></i>) in the toolbar followed by the "directed" link. If you'd like to make all of the connecitons in your map directed, use the "a" keystroke to select everything in your map and then click the direction button (<i class="fa fa-random"></i>) followed by the "directed" link.
+
 ### Marking connections as same or opposite
 
-If you're looking to indicate whether a connection has a same or opposite causal relationship (does an increase in one factor cause an increase or a decrease in the other?), we recommend using the connection type and adding either "same" or "opposite" as the value. You can then add a decoration to your perspective that keeps the "same" connections solid and adds a dashed pattern for the "oppposite" connections. Here is the advanced CSS to add:
+If you're looking to indicate whether a connection has a same or opposite causal relationship (does an increase in one factor cause an increase or a decrease in the other?), there are a few ways to go about it.
+
+#### Using the connection label
+If you're just looking to have "same" or "opposite" show up on the connection as a label, click to select the connection and then add "same" or "opposite" as the label. You'll see the text appear on the connection on the map.
+
+#### Using types
+Another option is to add "same" or "opposite" as the connection type. By doing this, you can then use that information to decorate the connection. For example, we could leave "same" connections as-is and then add a decoration that adds a dashed pattern for the "oppposite" connections. If you'd like to do this, add the following to the advanced CSS tab of your perspective:
 
 ```
 connection["connection type"="opposite"] {
@@ -27,9 +45,10 @@ connection["connection type"="opposite"] {
 }
 ```
 
-### Adding pre and post labels
 
-Some system mappers like to go even further and include not just whether a connection is same or opposite, but also the "+" and "-" labels on the from and to ends of a connection. We've customized the behavior of the type field for connections to allow for creation of these labels:
+#### Using pre and post labels
+
+Some system mappers like to go even further and include not just whether a connection is same or opposite, but also the "+" and "-" labels on the trailing and leading ends of a connection. We've customized the behavior of the type field for connections to allow for creation of these labels. The table below lists the value to add as the connection type and the corresponding behavior it creates:
 
 Value | Behavior
 --- | ---
@@ -66,6 +85,20 @@ One of the challenges with current system mapping platforms is that they don't a
 ### Narratives
 
 Kumu allows you to add this information easily for any and all levels of your map. Start by using the map overview to add a description of the overall map and key dynamics at play. Then include a narrative for each loop that describes the behavior, both current and historical, and includes links to any supporting research that led to the creation of the loop. For specific elements, provide a quick definition to ensure there isn't confusion. And for connections, include a brief description of why two elements are causally related and any supporting research.
+
+#### Strengthen your narrative using links to elements and loops
+
+Ever gotten lost in someone's description of a system map? Does the first paragraph relate to the top right or the bottom left of the system map? Why can't I find what they are talking about on the map?
+
+Good news! Kumu allows you to create links to elements and loops within your description. When someone hovers their cursor on the link, the map will pan and zoom to that location on the map.
+
+To add these links, follow the standard markdown link syntax but include a selector for the label. Here's the format:
+
+```
+[Link Label](= #yourelementname)
+```
+
+Substitute "yourelementname" for the label of the desired element or loop you'd like to link to. Make sure to remove all spaces and special characters (so "Your Element Name!" would become "yourelementname").
 
 ### Trends, needed change, and other data
 
