@@ -20,18 +20,7 @@ Type is meant for the broadest categorization of the elements, connections and l
 
 ### Attention system mappers: Using types for pre and post labels on connections
 
-We've customized the behavior of the type field for connections to allow for creation of pre and post labels that are common in causal loop diagrams. Below are the values you can use:
-
-Value | Behavior
---- | ---
-**+** | adds a "+" to the *trailing* end of the connection
-**-** | adds a "-" to the *trailing* end of the connection
-**++** | adds a "+" to both ends of the connection
-**--**  | adds a "-" to both ends of the connection
-**+-** | adds a "+" to the *leading* end and a "-" to the *trailing* end of the connection
-**-+** | adds a "-" to the *leading* end and a "+" to the *trailing* end of the connection
-
-Check out the [systems mapping guide](/guides/system-mapping.html) to learn more.
+We've customized the behavior of the type field for connections to allow for creation of pre and post labels that are common in causal loop diagrams. Check out the [systems mapping guide](/guides/system-mapping.html) to learn more.
 
 ### Loops
 
