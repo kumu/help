@@ -7,7 +7,7 @@ Kumu is built to be collaborative whether you have a public or private project. 
 
 ## User Types
 
-Enter the user's email and then choose whether the user should be an observer, collaborator, or manager.
+Enter the username of the person you want to collaborate with and then choose whether that person should be an observer, collaborator, or manager.
 
 <dl>
 <dt>Observers</dt>
