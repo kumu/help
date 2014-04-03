@@ -20,18 +20,7 @@ Type is meant for the broadest categorization of the elements, connections and l
 
 ### Attention system mappers: Using types for pre and post labels on connections
 
-We've customized the behavior of the type field for connections to allow for creation of pre and post labels that are common in causal loop diagrams. Below are the values you can use:
-
-Value | Behavior
---- | ---
-**+** | adds a "+" to the **to** end of the connection
-**-** | adds a "-" to the **to** end of the connection
-**++** | adds a "+" to the **from** and **to** end of the connection
-**--**  | adds a "-" to the **from** and **to** end of the connection
-**+-** | adds a "+" to the **from** end and a "-" to the **to** end of the connection
-**-+** | adds a "-" to the **from** end and a "+" to the **to** end of the connection
-
-Check out the [systems mapping guide](/guides/system-mapping.html) to learn more.
+We've customized the behavior of the type field for connections to allow for creation of pre and post labels that are common in causal loop diagrams. Check out the [systems mapping guide](/guides/system-mapping.html) to learn more.
 
 ### Loops
 
@@ -44,6 +33,8 @@ If an image has been added to an element, you'll see it appear in the upper righ
 ## Description
 
 The description is meant to include a narrative overview of what you are mapping. For a person, this may be a short bio and for a project it may be a quick summary or intended impact. You can add formatting (bold, italics), links to external websites, links within your map and to other maps, images, video and more through markdown. Make sure to read the [Markdown Guide](/guides/markdown.html) to learn all that you can add.
+
+We've also extended Markdown's features by adding a powerful widget framework. Embed videos from YouTube and Vimeo or presentations from SlideShare and Speaker Deck (support for additional platforms on the way). Head over to the [Widget Guide](/guides/widgets.html) to learn how.
 
 ## Tags
 

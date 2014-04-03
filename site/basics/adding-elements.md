@@ -9,6 +9,8 @@ We give you a number of different ways to build your map. The best method will v
 
 Adding an element is as simple as clicking the blue "Add Element" button in the upper left of the map. Type the name of the element you want to add and then hit enter.
 
+<img src="/images/add-element-button.png" class="border" alt="add element button">
+
 To add a connection, select the element you want to connect from and then click the "Add Connection" button. Type the name of the element you want to connect to and then hit enter. If the element you are trying to connect to doesn't exist yet, Kumu will create the element for you first and then create the connection to it.
 
 ## Using keyboard shortcuts

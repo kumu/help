@@ -22,7 +22,7 @@ If you add elements using the "Add Element" button workflow, the element will in
 If you're looking to indicate whether a connection has a same or opposite causal relationship (does an increase in one factor cause an increase or a decrease in the other?), we recommend using the connection type and adding either "same" or "opposite" as the value. You can then add a decoration to your perspective that keeps the "same" connections solid and adds a dashed pattern for the "oppposite" connections. Here is the advanced CSS to add:
 
 ```
-connection ["connection type"="opposite"] {
+connection["connection type"="opposite"] {
   pattern: dashed;
 }
 ```
@@ -33,16 +33,27 @@ Some system mappers like to go even further and include not just whether a conne
 
 Value | Behavior
 --- | ---
-**+** | adds a "+" to the **to** end of the connection
-**-** | adds a "-" to the **to** end of the connection
-**++** | adds a "+" to the **from** and **to** end of the connection
-**--**  | adds a "-" to the **from** and **to** end of the connection
-**+-** | adds a "+" to the **from** end and a "-" to the **to** end of the connection
-**-+** | adds a "-" to the **from** end and a "+" to the **to** end of the connection
+**+** | adds a "+" to the *trailing* end of the connection
+**-** | adds a "-" to the *trailing* end of the connection
+**++** | adds a "+" to both ends of the connection
+**--**  | adds a "-" to both ends of the connection
+**+-** | adds a "+" to the *leading* end and a "-" to the *trailing* end of the connection
+**-+** | adds a "-" to the *leading* end and a "+" to the *trailing* end of the connection
+
+<br /><br />
+Simply add the value to the "type" field on any connection:
+
+![connection type](/images/systems-connection-type.png)
+
+And we'll automatically add the pre and post labels for you:
+
+![pre and post labels](/images/systems-connection-type-example.png)
 
 ### Creating loops
 
 Kumu has built-in support for loops including detailed profiles so you can add narratives and other research to support your map. To create a loop, hold either **command** or **shift** and click on each connection you'd like to have as part of your loop. Once you select more than one connection, you'll see a new button appear below the "Add Connection" button labeled "Add Loop." Click this button to create a loop involving the selected connections and then add a label for the loop.
+
+![reinforcing loop](/images/systems-reinforcing-loop.png)
 
 We recommend using a combination of "R" or "B" (for reinforcing and balancing) plus a short label for the dynamic at play (R: Trust in Government) and even a numerical label if that further helps differentiate your loops (R15: Trust in Government).
 
@@ -67,6 +78,8 @@ Finally, you can even add data like **% complete** to be able to track the statu
 ## Creating magazine-ready maps
 
 There are a number of decorations you can add that really make your system map ***pop***. One of these is using larger circles that fit the label within the circle rather than below it. One caution, if you're hoping to size elements by certain data, you probably want to keep the label placement below the element. But if you are using color scales instead, this can be a nice way to create a great looking map.
+
+![Hawaii Quality of Life System Map](/images/systems-magazine-ready.png)
 
 To make this happen, you'll need to create a perspective that increases the size of the circle and then changes the label placement. Here is the sample advanced CSS for a recent collaboration with [Hawaii Business Magazine](http://hawaiiqualityoflife.org):
 
