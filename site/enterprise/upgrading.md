@@ -25,3 +25,5 @@ from the old instance to the new one.
 ssh admin@<old-hostname> -- "kumu-export" > kumu-backup.tar.gz
 ssh admin@<new-hostname> -- "kumu-import" < kumu-backup.tar.gz
 ```
+
+### Still have questions? [Contact Support](mailto:enterprise@kumu.io)

@@ -26,3 +26,5 @@ the latest software bundle have been uploaded before running this command.)
 ```
 ssh admin@<hostname> -- "kumu-import" < kumu-backup.tar.gz
 ```
+
+### Next: [Upgrading](/enterprise/upgrading.html)
