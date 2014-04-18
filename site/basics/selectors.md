@@ -26,7 +26,7 @@ attribute selector and the advanced queries you can create with them.
 Before we dive in, we need to talk about slugs. A slug is nothing more than
 a simplified version of a value. To slug a value, simply:
 
-1. Convert all special characters to spaces
+1. Remove all special characters
 2. Convert all spaces to a single dash
 3. Lowercase everything
 
