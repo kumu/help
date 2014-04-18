@@ -3,9 +3,9 @@ layout: enterprise
 name: "Upgrading"
 ---
 
-Upgrades come in two flavors: sofware upgrades and appliance upgrades.
+Upgrades come in two flavors: software upgrades and appliance upgrades.
 
-# Sofware Upgrade
+# Software Upgrade
 
 Just grab the latest .ksb and upload it at `<hostname>/enterprise/setup`.
 There's no need to upload your license again if you've already done so.
