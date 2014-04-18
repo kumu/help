@@ -12,3 +12,5 @@ your Kumu Enterprise installation.
 
 Please email <a href="mailto:enterprise@kumu.io">enterprise@kumu.io</a> if you
 have any questions.
+
+#### Step One: [Getting started with VirtualBox](/enterprise/getting-started-with-virtualbox.html)
