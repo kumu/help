@@ -1,9 +1,9 @@
 ---
 layout: default
-name: "Collaboration & Conflicts"
+name: "Conflicts"
 ---
 
-It's simple to build maps with others using Kumu. You can add your teammates as either [observers, collaborators, or managers](/basics/sharing-and-collaborating.html) and start building. If you're working on the same map at the same time, you'll notice that changes made by your teammates don't automatically appear on your map. To bring in recent changes, refresh your browser.
+We've intentionally designed Kumu *not* to be realtime. When working with complex data it's distracting to have things changing constantly out of your control. Instead we only pull in changes when conflicts need to be merged. When you want to sync up with the rest of your team, just refresh the page.
 
 If you happen to edit the same part of the map at the same time (whether that's an element name, map description, perspective, or something else), we'll detect this and prompt you to review any conflicts.
 
@@ -27,4 +27,4 @@ If there are multiple conflicts, you'll be taken through each conflict one by on
 
 ![Conflicts Step 4](/images/merge-4.png)
 
-...you're all set! Don't you wish handling conflicts at work were as easy as that.
+...you're all set. If only handling conflicts in the real world were this easy!
