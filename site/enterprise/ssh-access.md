@@ -15,4 +15,6 @@ Mac users can use the command below to copy your key to the clipboard:
 cat ~/.ssh/id_rsa.pub | pbcopy
 ```
 
-### Next: [Command Line Utilities](/enterprise/command-line-utilities.html)
+<footer class="page-footer">
+  <div class="next">Next: [Command Line Utilities](/enterprise/command-line-utilities.html)</div>
+</footer>
