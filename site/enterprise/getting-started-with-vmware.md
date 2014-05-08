@@ -1,19 +1,23 @@
 ---
 layout: enterprise
-name: "Getting Started with VirtualBox"
+name: "Getting Started with VMWare"
 ---
+
+Before installing Kumu Enterprise in production, we recommend running through
+the installation process on your local machine
+[using VirtualBox](/enterprise/getting-started-with-virtualbox.html).
 
 The download locations for the Kumu Enterprise virtual appliance (.ova),
 your Kumu Enterprise license (.kli), and the latest Kumu Enterprise software
 bundle (.ksb) should have been provided to you by email. Please email
 <a href="mailto:enterprise@kumu.io">enterprise@kumu.io</a> if you don't have them yet.
 
-Also, please make sure you're running the
-<a href="https://www.virtualbox.org/">latest version of VirtualBox</a>.
+Please make sure you're running the
+<a href="https://www.vmware.com/">latest version of VMWare</a>.
 
 ## Step 1. Import the appliance
 
-Import the .ova into VirtualBox. By default the machine is configured with the
+Import the .ova into VMWare. By default the machine is configured with the
 following settings:
 
 - Bridged Network
@@ -51,6 +55,6 @@ configure your installation.
 </p>
 
 To get the checksum on a mac use `md5 kumu-enterprise.kli`
-or on linux use `md5sum kumu-enterprise.kli`.
+or on linux `md5sum kumu-enterprise.kli`.
 
 ### Next: [Configuration](/enterprise/configuration.html)
