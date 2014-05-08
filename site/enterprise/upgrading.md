@@ -26,4 +26,6 @@ ssh admin@<old-hostname> -- "kumu-export" > kumu-backup.tar.gz
 ssh admin@<new-hostname> -- "kumu-import" < kumu-backup.tar.gz
 ```
 
-### Still have questions? [Contact Support](mailto:enterprise@kumu.io)
+<footer class="page-footer">
+  <div class="next">Still have questions? [Contact Support](mailto:enterprise@kumu.io)</div>
+</footer>

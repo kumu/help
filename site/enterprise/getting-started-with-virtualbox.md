@@ -37,20 +37,9 @@ Follow the instructions given to you by the console to complete your installatio
 Your enterprise license (.kli) and software bundle (.ksb) can be installed by
 going to `<hostname>/enterprise/setup`.
 
-You're finished once you see the following screen (be patient as the process can take up to 10 minutes).
+The installation is complete once you see the following screen (be patient as the process can take up to 10 minutes).
 ![Installation Complete](/images/enterprise-success.png)
 
-## Step 4. Configure your installation
-
-Once the setup is complete, you can go to `<hostname>/enterprise/admin` to
-configure your installation.
-
-<p>
-  <strong>username:</strong> admin<br>
-  <strong>password:</strong> the md5 checksum of your license
-</p>
-
-To get the checksum on a mac use `md5 kumu-enterprise.kli`
-or on linux use `md5sum kumu-enterprise.kli`.
-
-### Next: [Configuration](/enterprise/configuration.html)
+<footer class="page-footer">
+  <div class="next">Next: [Configuration](/enterprise/configuration.html)</div>
+</footer>
