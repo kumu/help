@@ -5,7 +5,7 @@ title: "Kumu Enterprise"
 ---
 
 These help docs will guide you through the process of
-<a href="/enterprise/getting-started-with-virtualbox.html">installing</a>,
+<a href="/enterprise/getting-started-with-vmware.html">installing</a>,
 <a href="/enterprise/configuration.html">configuring</a>, and
 <a href="/enterprise/upgrading.html">upgrading</a>
 your Kumu Enterprise installation.
