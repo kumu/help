@@ -8,6 +8,8 @@
 
     <link rel="stylesheet" href="/css/index.css">
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <script type="text/javascript" src="//use.typekit.net/oeq2prw.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
     <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -27,10 +29,16 @@
     <div class="container">
       <div class="row">
         <nav id="menu" class="text-left col-sm-4">
+          <button class="navbar-toggle visible-xs-*" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
           <a href="/enterprise">
-            <img id="logo" class="img-responsive" src="/images/ent-logo-sm.png" />
+            <img id="logo" class="img-responsive hidden-xs" src="/images/ent-logo-sm.png" />
           </a>
-
+          <div class="navbar-collapse collapse">
           <ul class="nav nav-list">
             <li class="nav-header">Installation</li>
             <li><a href="/enterprise/getting-started-with-vmware.html">Getting Started with VMWare</a></li>
@@ -49,6 +57,7 @@
             <li class="nav-header">Support</li>
             <li><a href="mailto:enterprise@kumu.io">Contact Support</a></li>
           </ul>
+        </div>
         </nav>
 
         <div id="content" class="col-sm-8">
