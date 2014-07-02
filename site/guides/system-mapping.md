@@ -3,11 +3,18 @@ layout: default
 name: "System Mapping"
 ---
 
-Looking to create awesome and engaging system maps with the power to change hearts and minds? You've come to the right place.
+
+Looking to create awesome and engaging system maps with the power to change hearts and minds? You've come to the right place. Kumu enables you to build interactive maps with narratives, links, video and other background for each element, connection, and loop in the map.
+
+<iframe src="//player.vimeo.com/video/99685006?title=0&amp;byline=0&amp;portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 ## Building the basic structure of a map
 
-Kumu allows you to have both fixed and dynamic layouts for your map. We recommend having a fixed layout for your system map by pinning each element in place so that you'd don't overwhelm people with a new layout each time they see the map.
+Kumu allows you to have both fixed and fluid layouts for your map. We recommend having a fixed layout for your system map by pinning each element in place so that you'd don't overwhelm people with a new layout each time they see the map.
+
+The first thing you'll want to do is change the default settings so that elements are fixed by default and connections are directed by default. You can do this within the map sidebar:
+
+![setting defaults](/images/defaults-element-connection.png)
 
 ### Adding elements and connections
 
@@ -15,21 +22,40 @@ The quickest way to add an element and have it pinned in place is to use the **a
 
 You can also use the **alt** + **drag** method to connect two existing elements. Simply follow the same instructions but release on top of an existing element.
 
-If you add elements using the "Add Element" button workflow, the element will initially be floating. Click on the element and then hit the pin button (<i class="fa fa-map-marker"></i>) to make sure it stays in place.
+If you add elements using the "Add Element" button workflow, the element may be initially floating depending on whether you have changed the default settins. Click on the element and then hit the pin button (<i class="fa fa-map-marker"></i>) to make sure it stays in place.
+
+#### Forcing line breaks in entity names
+
+Sometimes our default line break isn't quite right for your map. To add a manual line break, just include a souble space in the label of any element, connection or loop and Kumu will treat it as a line break.
+
+### Changing the curvature of connections
+
+Often times you'll want to change the curvature of a connection based on the layout of the map. To do this, just click and drag close to the middle of the connection. You'll see the curvature changing and once you release, the connection will stay in that position.
+
+### Setting connection direction
+
+If you've followed our instructions to set connections to default as directed, you're probably all set. But if you need to add/change/remove an arrow, first select the connection and then click the direction button (<i class="fa fa-random"></i>) in the toolbar followed by the "directed" link. If you'd like to make all of the connections in your map directed, use the "a" keystroke to select everything in your map and then click the direction button (<i class="fa fa-random"></i>) followed by the "directed" link.
 
 ### Marking connections as same or opposite
 
-If you're looking to indicate whether a connection has a same or opposite causal relationship (does an increase in one factor cause an increase or a decrease in the other?), we recommend using the connection type and adding either "same" or "opposite" as the value. You can then add a decoration to your perspective that keeps the "same" connections solid and adds a dashed pattern for the "oppposite" connections. Here is the advanced CSS to add:
+If you're looking to indicate whether a connection has a same or opposite causal relationship (does an increase in one factor cause an increase or a decrease in the other), there are a few ways to go about it:
+
+#### Using the connection label
+If you're just looking to have "same" or "opposite" show up on the connection as a label, click to select the connection and then add "same" or "opposite" as the label. You can do this by clicking on the name of the connection. You'll see the text appear on the connection on the map.
+
+#### Using types
+
+Another option is to add "same" or "opposite" as the conection type. By doing this, you can then use that information to decorate the connection. For example, we could leave "same" connections as-is and then add a decoration that adds a dashed pattern for the "opposite" connections. If you'd like to do this, add the following to the advanced CSS tab of your perspective:
 
 ```
-connection["connection type"="opposite"] {
-  pattern: dashed;
+opposite-connection {
+    pattern: dashed;
 }
 ```
 
-### Adding pre and post labels
+#### Using pre and post labels
 
-Some system mappers like to go even further and include not just whether a connection is same or opposite, but also the "+" and "-" labels on the from and to ends of a connection. We've customized the behavior of the type field for connections to allow for creation of these labels:
+Some system mappers like to go even further and include not just whether a connection is same or opposite, but also the "+" and "-" labels on the trailing and leading ends of a connection. We've customized the behavior of the type field for connections to allow for creation of these labels. The table below lists the value to add as the connection type and the corresponding behavior it creates:
 
 Value | Behavior
 --- | ---
@@ -66,6 +92,22 @@ One of the challenges with current system mapping platforms is that they don't a
 ### Narratives
 
 Kumu allows you to add this information easily for any and all levels of your map. Start by using the map overview to add a description of the overall map and key dynamics at play. Then include a narrative for each loop that describes the behavior, both current and historical, and includes links to any supporting research that led to the creation of the loop. For specific elements, provide a quick definition to ensure there isn't confusion. And for connections, include a brief description of why two elements are causally related and any supporting research.
+
+![System Map in Kumu](/images/system-mapping-intro.png)
+
+
+#### Strengthen your narrative using links to elements and loops
+
+Ever gotten lost in someone's description of a system map? Does the first paragraph relate to the top right or the bottom left of the system map? Why can't I find what they are talking about on the map?
+
+Good news! Kumu allows you to create links to elements and loops within your description. When someone hovers their cursor on the link, the map will pan and zoom to that location on the map.
+
+To add these links, follow the standard markdown link syntax but include a selector for the label. Here's the format:
+
+```
+[Link Label](= #your-element-name)
+```
+Substitute "your-element-name" for the label of the desired element or loop you'd like to link to. Make sure to first remove all special characters from the name and then replace any spaces with dashes (so "Your Element Name!" would become "your-element-name").
 
 ### Trends, needed change, and other data
 
