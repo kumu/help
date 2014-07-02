@@ -3,7 +3,10 @@ layout: default
 name: "System Mapping"
 ---
 
+
 Looking to create awesome and engaging system maps with the power to change hearts and minds? You've come to the right place. Kumu enables you to build interactive maps with narratives, links, video and other background for each element, connection, and loop in the map.
+
+<iframe src="//player.vimeo.com/video/99685006?title=0&amp;byline=0&amp;portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 ## Building the basic structure of a map
 
@@ -89,6 +92,9 @@ One of the challenges with current system mapping platforms is that they don't a
 ### Narratives
 
 Kumu allows you to add this information easily for any and all levels of your map. Start by using the map overview to add a description of the overall map and key dynamics at play. Then include a narrative for each loop that describes the behavior, both current and historical, and includes links to any supporting research that led to the creation of the loop. For specific elements, provide a quick definition to ensure there isn't confusion. And for connections, include a brief description of why two elements are causally related and any supporting research.
+
+![System Map in Kumu](/images/system-mapping-intro.png)
+
 
 #### Strengthen your narrative using links to elements and loops
 
