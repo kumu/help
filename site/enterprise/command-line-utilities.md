@@ -28,5 +28,5 @@ ssh admin@<hostname> -- "kumu-import" < kumu-backup.tar.gz
 ```
 
 <footer class="page-footer">
-  <div class="next">Next: [Upgrading](/enterprise/upgrading.html)</div>
+  <div class="next">Have questions? [Contact Support](mailto:enterprise@kumu.io)</div>
 </footer>
