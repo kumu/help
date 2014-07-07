@@ -16,5 +16,5 @@ cat ~/.ssh/id_rsa.pub | pbcopy
 ```
 
 <footer class="page-footer">
-  <div class="next">Next: [Command Line Utilities](/enterprise/command-line-utilities.html)</div>
+  <div class="next">Next: [Backing up Enterprise Data](/enterprise/backing-up-enterprise-data.html)</div>
 </footer>

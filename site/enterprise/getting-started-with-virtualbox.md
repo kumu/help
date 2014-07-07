@@ -35,7 +35,7 @@ your network settings.
 
 Follow the instructions given to you by the console to complete your installation.
 Your enterprise license (.kli) and software bundle (.ksb) can be installed by
-going to `<hostname>/enterprise/setup`.
+going to `<hostname>/enterprise/install`.
 
 The installation is complete once you see the following screen (be patient as the process can take up to 10 minutes).
 ![Installation Complete](/images/enterprise-success.png)
