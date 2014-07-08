@@ -31,7 +31,7 @@ not as simple as the basic upgrade, the process only requires a few steps.
 1. [Restore your existing data][restore] onto the new instance
 
 <footer class="page-footer">
-  <div class="next">Next: [Command line utilities][cmd]</div>
+  <div class="next">Have questions? [Contact Support](mailto:enterprise@kumu.io)</div>
 </footer>
 
 [cmd]: /enterprise/command-line-utilities.html
