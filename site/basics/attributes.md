@@ -46,9 +46,16 @@ We reserve a few category names that we give special treatment to:
 - **Footnotes** - This category is meant for things like attribution and citing your sources. Attributes in this category will always be listed at the bottom of the profile.
 
 ## Attribute relevance
-You can also manage attribute relevance through the project's settings to prevent irrelevant attributes getting in the way of your work. Navigate to the main menu of your project and then click on the settings tab (<i class="fa fa-cog"></i>). You'll be presented with a text input for each of the types currently present in your map.
+You can also manage attribute relevance through the project's settings to prevent irrelevant attributes getting in the way of your work. Navigate to the main menu of your project and then click on the settings tab (<i class="fa fa-cog"></i>). You'll be presented with a list of all element and connection types within your project. If you click edit, you'll see a list of checkboxes for each of the attributes.
 
-![attribute relevance](/images/attribute-relevance.png)
+![attribute relevance](/images/attribute-relevance-revised.png)
 
-By default, all attributes are shown for all types. If you'd like to limit the attributes that are shown, simply type the name of each attribute you'd like to appear in the profile for a given type. Label, type, description, and tags are always shown for all types regardless of what you enter. Above is an example of customizing the profile of elements with type of "People" to only show Phone, Address, and Skills.
+By default, all attributes are shown for all types. If you'd like to limit the attributes that are shown, simply click edit and then uncheck the attribute you'd like to hide in the profile for a given type. Label, type, description, and tags are always shown for all types regardless of what you enter. Above is an example of customizing the profile of elements with type of "Company" to only show Attribution, Image, Website, and URL.
 
+## Attribute ordering
+You can also use the attribute relevance menu to change the order attributes are listed in the profile. By default all attributes are listed alphabetically, either all within the general category or within another category specified by you. The order of attributes is unique to each element type so you'll need an element type assigned to whatever elements you want to change the order for.
+
+Click edit underneath the relevant type and then uncheck at least one attribute to hide it from the profile (otherwise the orders won't save). Simply drag and drop the attributes and then click "Done" and you'll see the new order reflected in the profile.
+
+Here's a quick video overview of how it all works:
+<iframe src="//player.vimeo.com/video/102600374" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
