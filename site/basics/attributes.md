@@ -55,7 +55,7 @@ By default, all attributes are shown for all types. If you'd like to limit the a
 ## Attribute ordering
 You can also use the attribute relevance menu to change the order attributes are listed in the profile. By default all attributes are listed alphabetically, either all within the general category or within another category specified by you. The order of attributes is unique to each element type so you'll need an element type assigned to whatever elements you want to change the order for.
 
-Click edit underneath the relevant type and then uncheck at least one attribute to hide it from the profile (otherwise the orders won't save). Simply drag and drop the attributes and then click "Done" and you'll see the new order reflected in the profile.
+Click edit underneath the relevant type and then uncheck at least one attribute to hide it from the profile (otherwise the order won't save). Simply drag and drop the attributes and then click "Done" and you'll see the new order reflected in the profile.
 
 Here's a quick video overview of how it all works:
 <iframe src="//player.vimeo.com/video/102600374" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
