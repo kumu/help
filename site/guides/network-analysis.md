@@ -14,13 +14,11 @@ This guide walks you through the basics of network anaysis using Kumu. We'll wal
 1. Running the metrics
 1. Decorating your map
 
-<!---
 
-Looking for more background about network analysis? Check out "Social Network Analysis Made Easy" on Slideshare or Speakerdeck.
+*P.S. Looking for more background about network analysis? Check out [Social Network Analysis Made Easy](https://speakerdeck.com/jeffcmohr/social-network-analysis-made-easy):*
 
-<iframe src="//www.slideshare.net/slideshow/embed_code/3273045" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px; text-align: center;"> <strong> <a href="https://www.slideshare.net/gcheliotis/social-network-analysis-3273045" title="Social Network Analysis" target="_blank">Social Network Analysis</a> </strong> from <strong><a href="http://www.slideshare.net/gcheliotis" target="_blank">Giorgos Cheliotis</a></strong> </div>
+<script async class="speakerdeck-embed" data-id="5c286ba03f9b01327c755690da73e3c1" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
 
--->
 
 ## Step 1: Creating a project
 
