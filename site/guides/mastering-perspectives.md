@@ -118,6 +118,28 @@ You can use any [selector](/basics/selectors.html) to set the focus of the map. 
 }
 ```
 
+## Prompted mode
+
+Prompted mode builds on the preset focus by allowing users to build a map based on search criteria. When you've enabled prompted mode, users are presented with a search prompt rather than seeing the map. Users can then type the name of any element and hit enter to add them to the list of elements to be included in the map. By default that element and its direct connections will be included, but you can tweak the "out 1" setting to also include second and third degree connections.
+
+![prompted mode](/images/prompted-mode.png)
+
+Click build map and voila!
+
+![the map](/images/prompted-results.png)
+
+Hit escape on your keyboard to start over, or use the focus menu and choose "back to prompt" to edit the current map.
+
+![focus prompt](/images/focus-prompt.png)
+
+To enable prompted mode, you'll need to add the following to the advanced tab of any perspective you'd like it active within:
+
+```
+@settings {
+  focus: prompt;
+}
+```
+
 ## Render quality (for large maps)
 
 The default mapping engine is optimized for creating great looking maps. As you start working with larger and larger maps (1000+ elements) or you experience slowness on your computer, try shifting to our high performance mode. You can do this by hitting the **q** keystroke or by adding the following to your advanced CSS:
