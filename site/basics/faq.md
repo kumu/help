@@ -24,7 +24,7 @@ By default all connections are curved. You can change the curvature of connectio
 
 ```
 connection {
-  curavture: 0;
+  curvature: 0;
 }
 ```
 
