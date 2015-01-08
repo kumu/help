@@ -3,6 +3,34 @@ layout: enterprise
 name: "Changelog"
 ---
 
+# Version 1.4.0
+
+**Updated ksb, released 2015-01-07**
+
+This is a major performance update that also fixes a number of less-common bugs.
+OVA upgrade is not required for this one but do make sure to backup your
+installation before upgrading.
+
+- Significant stability and performance improvements for large maps
+- Significant overhaul of mobile UI and performance
+- Added social network analysis metrics
+- Added prompted mode
+- Added currency format
+- Added quick link widget
+- Added soundcloud widget
+- Added permalinks for all elements, connections, and loops
+- Added drag select for easier selection of multiple items
+- Added group connect for multiple selections
+- Added partial exports for multiple selections
+- Optimized image handling within maps
+- Optimized large imports
+- Fixed profile image overlap issue
+- Fixed clustering issues with duplicate elements
+- Fixed XLSX import bugs
+- Fixed couchdb proxy issues
+- Fixed attribute renaming bug
+- Fixed issues with include/ignore filter
+
 # Version 1.3.0
 
 **Updated ova and ksb, released 2014-07-07**
