@@ -13,7 +13,7 @@ Please <a href="http://www.quora.com/Kumu">reach out to us on Quora</a>
 or <a href="mailto:support@kumu.io">send us an email</a> if you have any questions.
 
 
-## Your First Map
+## Your first map
 When creating your first map, you'll have an option of picking one of our templates:
 
 <iframe src="//player.vimeo.com/video/120666713" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
