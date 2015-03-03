@@ -16,9 +16,12 @@ or <a href="mailto:support@kumu.io">send us an email</a> if you have any questio
 ## Your First Map
 When creating your first map, you'll have an option of picking one of our templates:
 
-![template selection](/images/template-selection.png)
+<iframe src="//player.vimeo.com/video/120666713" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
+<br />
 Templates provide an easy way to have a great looking map right from the start. Simply choose the template that best fits your use case and we'll add the proper decorations, adjust default settings, and even bootstrap the project with relevant attributes.
+
+<br />
 
 Here are four videos that walk you through the basics of each template:
 
