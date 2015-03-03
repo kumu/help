@@ -19,18 +19,12 @@ Every hosted Kumu account comes with unlimited collaborators. Our Enterprise ver
 
 By default all connections are curved. You can change the curvature of connections in one of two ways:
 
-* **Dragging connections** - If you click and drag a connection you'll be able to change the radius of the curve. This is especially useful in system maps when trying to avoid lines crossing each other unneccessarily.
-* **Through perspectives** - You can set the curvature of connections using Advanced CSS. You can choose to straighten all connections or just certain types based on the selector you use. Here is an example for making all connections have straight lines:
-
-```
-connection {
-  curvature: 0;
-}
-```
+* **Dragging connections** - For pinned maps, if you click and drag a connection you'll be able to change the radius of the curve. This is especially useful in system maps when trying to avoid lines crossing each other unneccessarily.
+* **Through the settings menu** - You can set the default curvature of connections using the settings menu. Simply drag the slider to achieve the curvature you want.
 
 ## Can I size or color elements based on social network analysis metrics like degree and betweenness centrality?
 
-We haven't yet implemented social network analysis calculations but plan to do so soon. Refer to the [Network Analysis Guide](/guides/network-analysis.html) for more information.
+Yes! Head over to the [Network Analysis Guide](/guides/network-analysis.html) for more information.
 
 ## How do I add images to the elements on my map?
 
