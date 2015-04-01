@@ -13,5 +13,5 @@ clean:
 setup:
 	bundle && powder link
 
-deploy:
+deploy: build
 	aws s3 sync public s3://help.kumu.io --delete --profile kumu-help
