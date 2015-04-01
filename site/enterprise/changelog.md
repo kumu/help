@@ -9,21 +9,21 @@ name: "Changelog"
 
 Presentations and templates are now available in enterprise! See the full list below for all the goodies. Only the .ksb is required for this release. Please make sure to back up your installation before upgrading.
 
-Added presentations
-Added systems mapping and network analysis templates
-Added settings form for simple access to defaults and layout settings
-Added attribute relevance for generic elements, connections, and loop
-Added bulk attribute editing for multiple selections
-Added label templates
-Added currency format
-Added support for renaming discussions
-Added support for rectangular elements
-Added support for auto-sizing elements to their labels
-Added support for latex in markdown
-Added support for running all metrics at once
-Added support for weighted metrics
-Fixed the way less than / greater than comparisons are handled within selectors
-Optimized focus behavior to prevent accidental focus activation
+- Added presentations
+- Added systems mapping and network analysis templates
+- Added settings form for simple access to defaults and layout settings
+- Added attribute relevance for generic elements, connections, and loop
+- Added bulk attribute editing for multiple selections
+- Added label templates
+- Added currency format
+- Added support for renaming discussions
+- Added support for rectangular elements
+- Added support for auto-sizing elements to their labels
+- Added support for latex in markdown
+- Added support for running all metrics at once
+- Added support for weighted metrics
+- Fixed the way less than / greater than comparisons are handled within selectors
+- Optimized focus behavior to prevent accidental focus activation
 
 # Version 1.4.0
 
